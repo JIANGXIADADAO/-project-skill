@@ -105,7 +105,44 @@ Render `{version}/FLOW.md` from flow.yaml. See `scripts/render-flow.js` in the p
 {Mermaid graph showing feature dependencies}
 ```
 
-## Step 7: Finalize
+## Step 7: Generate CLAUDE.md
+
+Write `CLAUDE.md` in the project root directory. If it already exists, ask whether to overwrite or keep:
+
+```
+CLAUDE.md exists. Overwrite with the project collaboration template? (y/n)
+```
+
+Template:
+
+```markdown
+# CLAUDE.md — {Project Name}
+
+## 协作规则
+
+### 操作前先解释
+每个操作前必须说明：
+- **是什么**：这一步叫什么、做什么
+- **干什么用**：完成后得到什么
+- **为什么**：背后原理
+
+### 每步验证
+- 每一步操作后验证结果
+- 输出符合预期 → 继续
+- 输出不对 → 一起排查，修到对为止
+
+### 结束时存档
+每个功能完成后提醒：
+"这个功能搞定了。如果要结束今天的开发，记得 /project-checkpoint 存档进度。"
+
+### 断点续做
+如果 CLAUDE.md 末尾有 `<!-- PROJECT:RESUME -->` 标记块：
+1. 读出断点信息并告诉用户"上次你做到..."
+2. 立刻删除整个标记块（从 `<!-- PROJECT:RESUME -->` 到 `<!-- /PROJECT:RESUME -->`）
+3. 从断点继续
+```
+
+## Step 8: Finalize
 
 Update state.json with project_name and created_at. Tell user:
 
