@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PYTHONPATH=\"D:\\\\MY_WORKS\\\\WOERKSHOP\\\\Claude_with\\\\CLI-drawio\\\\drawio\\\\agent-harness\")",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 80 -y 340 -w 150 -h 55 -l \"&#9997; 编写代码&#xa;\\(用户实施\\)\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 300 -y 340 -w 170 -h 55 -l \"/project-structure&#xa;扫描项目结构\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 530 -y 340 -w 170 -h 55 -l \"/project-verify&#xa;验证功能实现\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 760 -y 340 -w 170 -h 55 -l \"/project-status&#xa;查看进度面板\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 80 -y 610 -w 170 -h 55 -l \"/project-version&#xa;封版发布\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 340 -y 610 -w 170 -h 55 -l \"/project-paper&#xa;生成文档/报告\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 80 -y 700 -w 120 -h 25 -l \"CHANGELOG.md\" -s \"shape=note;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 340 -y 700 -w 120 -h 25 -l \"PAPER.md\" -s \"shape=note;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 560 -y 625 -w 120 -h 25 -l \"v2/ 下一版本\" -s \"shape=note;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 130 -y 805 -w 250 -h 45 -l \"state.json&#xa;版本 / 验证状态 / 文件快照\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#e1e1e1;strokeColor=#999999;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 450 -y 805 -w 180 -h 45 -l \"flow.yaml&#xa;功能注册表\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#e1e1e1;strokeColor=#999999;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio vertex add -x 700 -y 805 -w 200 -h 45 -l \"v1/    v2/    ...&#xa;\\(版本文件夹\\)\" -s \"rounded=1;whiteSpace=wrap;html=1;fillColor=#e1e1e1;strokeColor=#999999;fontSize=10;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 11 12 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#82b366;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 11 13 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#82b366;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 11 14 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#82b366;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 11 15 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#82b366;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 11 16 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#555555;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 16 17 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#555555;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 17 20 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#6c8ebf;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 17 18 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#555555;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 18 19 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#555555;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 18 21 -l \"验证失败\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#b85450;fontSize=10;fontColor=#b85450;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 21 18 -l \"修复完成\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#82b366;fontSize=10;fontColor=#82b366;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 19 22 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#555555;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 22 23 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#9673a6;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 23 25 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#9673a6;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 23 27 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#9673a6;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 23 24 -l \"可选\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;strokeColor=#9673a6;fontSize=9;dashed=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 24 26 -l \"\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#9673a6;fontSize=9;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 17 29 -l \"读功能列表\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#999999;fontSize=8;fontColor=#999999;exitX=0.5;exitY=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 18 29 -l \"读验证标准\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#999999;fontSize=8;fontColor=#999999;exitX=0.5;exitY=1;\" --json)",
+      "Bash(python -m cli_anything.drawio --project workflow.drawio edge add 21 28 -l \"更新状态\" -s \"edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#999999;fontSize=8;fontColor=#999999;exitX=0.5;exitY=1;\" --json)"
+    ]
+  }
+}
